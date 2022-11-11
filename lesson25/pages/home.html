@@ -1,0 +1,230 @@
+<!doctype html>
+
+<!--
+2. Выбрать доменную область (подумайте над темой проекта, который будем развивать).
+Создать страницу с информацией по теме проекта, списком основным элементов
+(например, если интеренет-магазин, то список товаров и их описание, если блог - список постов,
+курсы - перечень курсов и тд), предусмотреть навигацию по сайту.
+Использовать компоненты Bootstrap для оформления.
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Internet site Fashionzone.by</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css">-->
+</head>
+<body>
+
+
+<div class="container text-center">
+
+    <!-- чердак -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupported">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Доставка</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Оплата</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Акции</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><b>Часы работы: с 10.00 до 19.00</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контакты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Сравнение </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Избранное</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button type="button" class="btn btn-light" >ВОЙТИ</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- логотип -->
+    <div>
+        <nav>
+            <a class="navbar-brand" href="home.html">
+                <img src="/img/logo_mixmobile.png" width="150" height="40" class="d-inline-block align-top" alt="">
+
+            </a>
+        </nav>
+    </div>
+
+
+    <!-- меню -->
+    <!--навигация-->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/smartphones.html" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Смартфоны
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/img/home.html">Apple</a></li>
+                            <li><a class="dropdown-item" href="img/home.html">Samsung</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="tablets.html" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Планшеты
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="home.html">Lenova</a></li>
+                            <li><a class="dropdown-item" href="home.html">Hp</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="mob_phones.html" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Мобильные телефоны
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="home.html">Nokia</a></li>
+                            <li><a class="dropdown-item" href="home.html">Philips</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="accessories.html" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Аксессуары
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="home.html">Чехлы для телефонов</a></li>
+                            <li><a class="dropdown-item" href="home.html">Чехлы для планшетов</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="radiotelephones.html" role="button" data-bs-toggle="dropdown"
+                           aria-expanded="false">
+                            Радиотелефоны
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="home.html">Panasonic</a></li>
+                            <li><a class="dropdown-item" href="home.html">teXet</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- карусель -->
+    <div class="row"></div>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="/img/home_carusel2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="/img/home_carusel.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <h3>Каталог товаров</h3>
+
+    <div class="card-group">
+
+        <div class="card" style="width: 18rem;">
+            <img src="/img/phon1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">СМАРТФОНЫ</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/img/phon1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">ПЛАНШЕТЫ</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/img/phon1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">МОБИЛЬНЫЕ ТЕЛЕФОНЫ</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/img/phon1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">АКСЕССУАРЫ</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/img/phon1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">РАДИОТЕЛЕФОНЫ</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</div>
+<hr>
+<h6>MaxP 2022</h6>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+</html>
